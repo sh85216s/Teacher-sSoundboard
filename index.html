@@ -1,14 +1,11 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>教師聲卡</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="css/soundcard.css"> -->
-    
-    <script type="text/javascript">
+     <script type="text/javascript">
       function MM_preloadImages() { //v3.0
         var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
           var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
@@ -92,7 +89,6 @@
     img {
       width: 100%;
       display: block;
-      /* margin: auto; */
     }  
     .card {
       border: 0;
@@ -114,7 +110,6 @@
       padding: 20px 0 20px 0;
       background-color: #49464d;
       width: 50%;
-      /* margin: auto; */
     }
     .seperation {
       padding-bottom: 24px;
@@ -126,8 +121,7 @@
       font-family: Microsoft Yahei;
       padding: 10px 0 10px 0;
       background-color: #49464d;
-      width: 50%;
-      /* margin: auto; */
+      width: 50%;    
     }
       @media screen and (max-width: 768px){
         .T-title {
@@ -152,7 +146,7 @@
       <div class="seperation"></div> 
       <!-- 以下第一列 -->
         <!-- <div class="row row-cols-4 row-cols-md-6 g-2 g-md-1000 justify-content-md-center"> -->
-          <div class="row row-cols-4 g-1 justify-content-md-center">
+          <div class="row row-cols-4 g-1">
           <div class="col">              
                 <img src="img/01-applause.png" id="Image1" onclick="img_player('applause');" onMouseOver="MM_swapImage('Image1','','img/01-applause-2.png',1)" onMouseOut="MM_swapImgRestore()"/>
                 <audio id="applause" controls >
@@ -188,7 +182,7 @@
 
 <!-- 以下第二列 -->
 
-        <div class="row row-cols-4 g-1 justify-content-md-center">
+        <div class="row row-cols-4 g-1">
           <div class="col">
                 <img src="img/05-CheeChee.png" id="Image5" onclick="img_player('CheeChee');" onMouseOver="MM_swapImage('Image5','','img/05-CheeChee-2.png',1)" onMouseOut="MM_swapImgRestore()"/>
                 <audio id="CheeChee" controls>
@@ -223,7 +217,7 @@
         </div>
 
 <!-- 以下第三列 -->
-        <div class="row row-cols-4 g-1 justify-content-md-center">          
+        <div class="row row-cols-4 g-1">          
 
           <div class="col">
                 <img src="img/09-Snoring.png" id="Image9" onclick="img_player('Snoring');" onMouseOver="MM_swapImage('Image9','','img/09-Snoring-2.png',1)" onMouseOut="MM_swapImgRestore()"/>
